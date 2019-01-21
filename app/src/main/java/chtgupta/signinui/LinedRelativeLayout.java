@@ -9,12 +9,8 @@ import android.view.animation.Interpolator;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 
-/**
- * Lined Animate RelativeLayout
- */
 public class LinedRelativeLayout extends RelativeLayout {
 
-    // CanvasView is the top view to draw line
     private CanvasView mCanvasView;
 
     private boolean mIsIgnoreFirstFocus = false;

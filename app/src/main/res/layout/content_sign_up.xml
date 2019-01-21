@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
@@ -64,21 +63,6 @@
             android:gravity="bottom"
             android:paddingBottom="8dp"/>
 
-        <!--<EditText-->
-            <!--android:id="@+id/sign_up_repeat_password"-->
-            <!--android:layout_width="260dp"-->
-            <!--android:layout_height="40dp"-->
-            <!--android:layout_below="@id/sign_up_password"-->
-            <!--android:layout_marginTop="16dp"-->
-            <!--android:background="@null"-->
-            <!--android:hint="@string/repeat_password"-->
-            <!--android:inputType="textPassword"-->
-            <!--android:imeOptions="actionDone"-->
-            <!--android:singleLine="true"-->
-            <!--android:textCursorDrawable="@null"-->
-            <!--android:textColor="@color/red"-->
-            <!--android:textColorHint="@color/red_faded" />-->
-
         <CheckBox
             android:id="@+id/signUpCheckBox"
             android:layout_width="wrap_content"
@@ -97,7 +81,7 @@
             android:layout_height="48dp"
             android:text="@string/sign_up"
             android:layout_below="@id/signUpCheckBox"
-            android:background="@drawable/bd_button"
+            android:background="@drawable/bg_button"
             android:backgroundTint="@color/red"
             android:textColor="@android:color/white"/>
 

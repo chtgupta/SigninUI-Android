@@ -63,7 +63,7 @@
             android:layout_height="48dp"
             android:text="@string/login"
             android:layout_below="@id/loginCheckBox"
-            android:background="@drawable/bd_button"
+            android:background="@drawable/bg_button"
             android:textColor="@color/red"/>
 
         <ImageView

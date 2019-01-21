@@ -4,7 +4,6 @@
     <color name="colorPrimaryDark">@color/red</color>
     <color name="colorAccent">@android:color/black</color>
     <color name="red">#d32f2f</color>
-    <color name="blue">#0A3D62</color>
     <color name="faded">#ddd</color>
     <color name="red_faded">#aad32f2f</color>
 </resources>
