@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <chtgupta.signinui.LinedRelativeLayout
+        android:id="@+id/loginLinedRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="288dp"
+        android:background="@color/red">
+
+        <ImageView
+            android:id="@+id/logo_login"
+            android:layout_width="64dp"
+            android:layout_height="64dp"/>
+
+        <EditText
+            android:id="@+id/login_email"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:hint="@string/email"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/logo_login"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/faded"
+            android:textCursorDrawable="@null"/>
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/login_email"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:textCursorDrawable="@null"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/faded" />
+
+        <CheckBox
+            android:id="@+id/loginCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remember_me"
+            android:layout_below="@id/login_password"
+            android:checked="true"
+            android:buttonTint="@android:color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="260dp"
+            android:layout_height="48dp"
+            android:text="@string/login"
+            android:layout_below="@id/loginCheckBox"
+            android:background="@drawable/bd_button"
+            android:textColor="@color/red"/>
+
+        <ImageView
+            android:id="@+id/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="12dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:tooltipText="@string/forgot_password"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_toEndOf="@+id/login_button"
+            app:srcCompat="@drawable/ic_error" />
+
+    </chtgupta.signinui.LinedRelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sign in UI</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="t_n_c_agreement">I agree to the <b>terms and conditions</b></string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+
+</resources>

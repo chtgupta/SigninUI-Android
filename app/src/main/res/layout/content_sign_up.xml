@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <chtgupta.signinui.LinedRelativeLayout
+        android:id="@+id/signUpLinedRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="410dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/logo_sign_up"
+            android:layout_width="64dp"
+            android:layout_height="64dp" />
+
+        <EditText
+            android:id="@+id/sign_up_name"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:hint="@string/full_name"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/logo_sign_up"
+            android:inputType="textPersonName"
+            android:textColor="@color/red"
+            android:textColorHint="@color/red_faded"
+            android:textCursorDrawable="@null"/>
+
+        <EditText
+            android:id="@+id/sign_up_email"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:hint="@string/email"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/sign_up_name"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/red"
+            android:textColorHint="@color/red_faded"
+            android:textCursorDrawable="@null"
+            android:gravity="bottom"
+            android:paddingBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/sign_up_password"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/sign_up_email"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/red"
+            android:textColorHint="@color/red_faded"
+            android:gravity="bottom"
+            android:paddingBottom="8dp"/>
+
+        <!--<EditText-->
+            <!--android:id="@+id/sign_up_repeat_password"-->
+            <!--android:layout_width="260dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_below="@id/sign_up_password"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:background="@null"-->
+            <!--android:hint="@string/repeat_password"-->
+            <!--android:inputType="textPassword"-->
+            <!--android:imeOptions="actionDone"-->
+            <!--android:singleLine="true"-->
+            <!--android:textCursorDrawable="@null"-->
+            <!--android:textColor="@color/red"-->
+            <!--android:textColorHint="@color/red_faded" />-->
+
+        <CheckBox
+            android:id="@+id/signUpCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/t_n_c_agreement"
+            android:layout_below="@id/sign_up_password"
+            android:checked="true"
+            android:buttonTint="@color/red"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/red"/>
+
+        <Button
+            android:id="@+id/sign_up_button"
+            android:layout_width="260dp"
+            android:layout_height="48dp"
+            android:text="@string/sign_up"
+            android:layout_below="@id/signUpCheckBox"
+            android:background="@drawable/bd_button"
+            android:backgroundTint="@color/red"
+            android:textColor="@android:color/white"/>
+
+    </chtgupta.signinui.LinedRelativeLayout>
+
+</LinearLayout>
